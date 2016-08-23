@@ -1,6 +1,6 @@
 from tkinter import *
 
-class App(tk.Frame):
+class App(Tk.Frame):
   def __init__(self, master=NONE):
     super().__init__(master)
     self.pack()
