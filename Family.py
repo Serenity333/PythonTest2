@@ -1,5 +1,5 @@
 from tkinter import *
-
+root = Tk()
 class App(Tk.Frame):
   def __init__(self, master=NONE):
     super().__init__(master)
