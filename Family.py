@@ -3,11 +3,13 @@ from tkinter import *
 root = Tk()
 
 pic = Text(root, height = 30, width = 30)
-photo = tk.PhotoImage(file='./dragon_bronze.gif')
+photo1 = tk.PhotoImage(file='./dragon_bronze.gif')
+photo1.image = photo
 pic.insert(END,'\n')
 pic.image_create(END, image=photo)
 
 pic.pack(side=LEFT)
+photo1.pack(side=LEFT)
 
 cat1 = Text(root, height=30, width = 30)
 scroll = Scrollbar(root, command=cat1.yview)
