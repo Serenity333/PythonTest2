@@ -3,7 +3,7 @@ from tkinter import *
 root = Tk()
 
 pic = Text(root, height = 30, width = 30)
-photo1 = tk.PhotoImage(file='./dragon_bronze.gif')
+photo1 = Tk.PhotoImage(file='./dragon_bronze.gif')
 photo1.image = photo
 pic.insert(END,'\n')
 pic.image_create(END, image=photo)
